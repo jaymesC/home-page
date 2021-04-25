@@ -6,7 +6,11 @@
 }
 
 #hello {
-  background-color: rgb(238, 178, 25);
+  background-color: #fff;
+}
+
+.top_icons {
+  display: none;
 }
 
 
@@ -23,30 +27,37 @@
   margin-top: 30px;
   padding-top: 15px;
   border-radius: 15px;
-  border: goldenrod;
+  border: #fff;
 }
 
 .button1 h5 {
   padding-top: 15px;
   padding-bottom: 15px;
+  color: red;
 }
 
 .button2 {
   margin-bottom: 10px;
   padding-top: 15px;
   border-radius: 15px;
-  border: goldenrod;
+  border: #fff;
   padding-left: 10px;
   padding-right: 10px;
+  color: red;
+}
+
+.container {
+  background-color: red;
 }
 
 .button3 {
-  background-color: rgb(238, 178, 25);
+  background-color: #fff;
   padding-top: 15px;
   border-radius: 15px;
-  border: goldenrod;
-  padding-left: 10px;
-  padding-right: 10px;
+  border: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: red;
 }
 
 .button3 h5 {
@@ -76,8 +87,8 @@
 }
 
 #footer_img {
-  width: 45px;
-  padding-left: 20px;
+  width: 75px;
+  padding-left: 50px;
 }
 
 .images {
@@ -96,35 +107,42 @@
     /* justify-content: space-between; */
   }
 
+  .top_icons {
+    display: block;
+    margin-right: 80px;
+    padding-bottom: 0px;
+  }
+
   .logo {
-    margin-left: 0;
+    margin-right: 110px;
   }
 
   #nav-menu h5 {
+    display: none;
     padding-top: 10px;
-    margin-left: 130px;
+    margin-left: 0px;
     font-size: 15px;
   }
 
-  #hello {
+  /* #hello {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-  }
+  } */
 
   #btnSec {
     padding-bottom: 50px;
   }
 
   .button1 h5 {
-    padding-bottom: 5px;
-    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 
   .button1 {
     margin-top: 40px;
-    padding-left: 100px;
-    padding-right: 20px;
+    /* padding-left: 100px; */
+    /* padding-right: 20px; */
     margin-bottom: 10px;
     border-radius: 20px;
     width: 69%;
@@ -132,16 +150,26 @@
   }
 
   .button2 h5 {
-    padding: 5px 95px 5px 5px;
+    padding: 20px 70px 10px 70px;
+    text-align: center;
   }
 
   .button3 h5 {
-    margin-left: 5px;
-    
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .button2 {
     margin-bottom: 20px;
+  }
+
+  .images {
+    display: none;
   }
 
   #image {
@@ -161,6 +189,10 @@
     font-size: 14px;
     margin-left: 50px;
     padding-bottom: 13px;
+  }
+
+  .footerLinks{
+    display: none;
   }
 
   .footer p {
