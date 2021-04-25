@@ -2,10 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Oswald";
 }
 
-#hello {
+#test {
   background-color: #fff;
 }
 
@@ -25,7 +25,8 @@
 .button1 {
   width: 67%;
   margin-top: 30px;
-  padding-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-radius: 15px;
   border: #fff;
 }
@@ -34,17 +35,23 @@
   padding-top: 15px;
   padding-bottom: 15px;
   color: red;
+  font-size: 35px;
 }
 
 .button2 {
   margin-bottom: 10px;
-  padding-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 25px;
   border-radius: 15px;
   border: #fff;
+  background-color: #fff;
   padding-left: 10px;
   padding-right: 10px;
   color: red;
+  
 }
+
+
 
 .container {
   background-color: red;
@@ -52,7 +59,8 @@
 
 .button3 {
   background-color: #fff;
-  padding-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 25px;
   border-radius: 15px;
   border: #fff;
   padding-left: 20px;
@@ -64,10 +72,12 @@
   margin-bottom: 10px;
   margin-left: 30px;
   margin-right: 30px;
+  font-size: 30px;
 }
 
 .button2 h5 {
   padding: 10px 50px;
+  font-size: 30px;
 }
 
 .section2 {
@@ -77,13 +87,18 @@
 .footer {
   margin-top: 30px;
   display: flex;
-
+  color: #fff;
   justify-content: center;
 }
 
 .footer h5 {
-  margin-left: 17px;
+  margin-left: 45px;
   padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer p {
+  font-size: 20px;
 }
 
 #footer_img {
@@ -92,7 +107,7 @@
 }
 
 .images {
-  margin-left: 80px;
+  margin-left: 30px;
   margin-bottom: 10px;
 }
 
@@ -112,7 +127,6 @@
     margin-right: 80px;
     padding-bottom: 0px;
   }
-
   .logo {
     margin-right: 110px;
   }
@@ -164,8 +178,15 @@
     padding-bottom: 15px;
   }
 
+  .button3 {
+    padding-top: 10px;
+  padding-bottom: 15px;
+  }
+
   .button2 {
     margin-bottom: 20px;
+    padding-top: 10px;
+  padding-bottom: 15px;
   }
 
   .images {
